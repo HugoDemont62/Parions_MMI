@@ -15,7 +15,7 @@ public class RegisterRequest extends StringRequest {
 
     public RegisterRequest(MainActivity mainActivity, String user_email, String user_name, String password,Response.Listener<String> listener) {
 
-        super(Method.POST, "http://hugodemont.fr/4654z494/fe6s16es1896se9s1fe651s68f46s464q684d684g6846t8h4.php", listener, null);
+        super(Method.POST, "", listener, null);
         params = new HashMap<>();
         params.put("useremail", user_email);
         params.put("username", user_name);
