@@ -15,7 +15,7 @@ public class LoginRequest extends StringRequest {
 
     public LoginRequest(MainActivity mainActivity, String user_email, String password,Response.Listener<String> listener) {
 
-        super(Method.POST, "http://hugodemont.fr/4654z494/a9d84az98d4a984da984zd984az98d4a98zd4.php", listener, null);
+        super(Method.POST, "", listener, null);
         params = new HashMap<>();
         params.put("useremail", user_email);
         params.put("password", password);
